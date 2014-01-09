@@ -19,6 +19,9 @@
 		044A0B85187E1D7E005FF8F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044A0B6D187E1D7E005FF8F9 /* UIKit.framework */; };
 		044A0B8D187E1D7E005FF8F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 044A0B8B187E1D7E005FF8F9 /* InfoPlist.strings */; };
 		044A0B8F187E1D7E005FF8F9 /* AutoLayoutSliderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A0B8E187E1D7E005FF8F9 /* AutoLayoutSliderTests.m */; };
+		044A0B9A187E1E6A005FF8F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A0B99187E1E6A005FF8F9 /* ViewController.m */; };
+		044A0B9D187E1E8B005FF8F9 /* SliderControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A0B9C187E1E8B005FF8F9 /* SliderControl.m */; };
+		044A0BA2187E27A6005FF8F9 /* GripView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044A0BA1187E27A6005FF8F9 /* GripView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,12 @@
 		044A0B8A187E1D7E005FF8F9 /* AutoLayoutSliderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoLayoutSliderTests-Info.plist"; sourceTree = "<group>"; };
 		044A0B8C187E1D7E005FF8F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		044A0B8E187E1D7E005FF8F9 /* AutoLayoutSliderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutSliderTests.m; sourceTree = "<group>"; };
+		044A0B98187E1E6A005FF8F9 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		044A0B99187E1E6A005FF8F9 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		044A0B9B187E1E8B005FF8F9 /* SliderControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderControl.h; sourceTree = "<group>"; };
+		044A0B9C187E1E8B005FF8F9 /* SliderControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderControl.m; sourceTree = "<group>"; };
+		044A0BA0187E27A6005FF8F9 /* GripView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GripView.h; sourceTree = "<group>"; };
+		044A0BA1187E27A6005FF8F9 /* GripView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GripView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +120,12 @@
 				044A0B79187E1D7E005FF8F9 /* AppDelegate.m */,
 				044A0B7B187E1D7E005FF8F9 /* Images.xcassets */,
 				044A0B70187E1D7E005FF8F9 /* Supporting Files */,
+				044A0B98187E1E6A005FF8F9 /* ViewController.h */,
+				044A0B99187E1E6A005FF8F9 /* ViewController.m */,
+				044A0B9B187E1E8B005FF8F9 /* SliderControl.h */,
+				044A0B9C187E1E8B005FF8F9 /* SliderControl.m */,
+				044A0BA0187E27A6005FF8F9 /* GripView.h */,
+				044A0BA1187E27A6005FF8F9 /* GripView.m */,
 			);
 			path = AutoLayoutSlider;
 			sourceTree = "<group>";
@@ -239,7 +254,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044A0B9A187E1E6A005FF8F9 /* ViewController.m in Sources */,
 				044A0B7A187E1D7E005FF8F9 /* AppDelegate.m in Sources */,
+				044A0B9D187E1E8B005FF8F9 /* SliderControl.m in Sources */,
+				044A0BA2187E27A6005FF8F9 /* GripView.m in Sources */,
 				044A0B76187E1D7E005FF8F9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +461,7 @@
 				044A0B94187E1D7E005FF8F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		044A0B95187E1D7E005FF8F9 /* Build configuration list for PBXNativeTarget "AutoLayoutSliderTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +470,7 @@
 				044A0B97187E1D7E005FF8F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
